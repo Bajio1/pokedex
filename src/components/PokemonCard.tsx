@@ -1,3 +1,11 @@
+import React from "react";
+
+interface PokemonCard {
+  name: string;
+  imgSrc: string
+}
+
+
 function PokemonCard({ pokemon }) {
   return (
     <figure>
